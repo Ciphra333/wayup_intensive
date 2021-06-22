@@ -1,0 +1,397 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+h1, h2, h3 ,h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.62em;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+/*Header*/
+.header {
+    background: -webkit-linear-gradient(45deg, rgb(78, 190, 254), rgb(55, 143, 217));
+    background: -moz-linear-gradient(45deg, rgb(78, 190, 254), rgb(55, 143, 217));
+    background: linear-gradient(45deg, rgb(78, 190, 254), rgb(55, 143, 217));
+    padding-top: 62px;
+    color: #fff;
+    padding-bottom: 140px;
+}
+.txt_offer {
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: bold;
+     color: white;
+     font-size: 36px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+   
+    font-size: 18px;
+    font-weight: bold;
+    width: 562px;
+}
+
+.text_title {
+    width: 570px;
+}
+
+.text_title span {
+font-size: 57px;
+}
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    width:397px;
+
+}
+
+.btn {
+    font-size: 15px;
+    width: 222px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 20px;
+    min-height: 56px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    background: #ffd429;
+    display: block;
+    text-align: center;
+    transition: background .1s linear, color .1s linear ;
+}
+
+.btn:hover {
+    background: #e1bd2c;
+}
+
+.desktop {
+margin-top: 9px;
+}
+/*Section Learn*/
+
+.learn {
+    margin: 108px 0 119px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #201b2d;
+    
+}
+
+.skills {
+    margin-top: 78px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.skill {
+ width: 290px;
+ text-align: center;
+}
+
+.time-log {
+padding-bottom: 30px;
+}
+
+.skill-text {
+    color: #2f2a3b;
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.skill-title {
+display: block;
+text-align: center;
+}
+
+/*Form*/
+
+.mail {
+  background: #ecf3f8;
+}
+.form_text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #201b2d;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 57px;
+    padding-top: 100px;
+}
+.input_form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 102px;
+
+
+
+}
+.item1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    display: flex;
+    width: 342px;
+    height: 48px;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    padding-left: 24px ;
+    padding-right: 24px;
+    
+
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.btn_input {
+    width: 342px;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    background: #ffd429;
+    display: block;
+    text-align: center;
+    transition: background .1s linear, color .1s linear ;
+    border: 1px;
+}
+
+
+
+/*Footer*/
+
+.footer {
+    
+background: #164d7a;
+text-align: center;
+overflow: hidden;
+height:139px;
+}
+
+
+.foot_text {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 62px;
+    align-items: center;
+    
+}
+
+.p_text {
+    padding:62px;
+}
+
+.btn_input:hover {
+    background: #e1bd2c;
+}
+
+.red {
+    color: red;
+}
+/* Скрытие анимации при пролистывании */
+.animated {
+    opacity: 0;
+}
+/*Responsive*/
+/* 992px - 1200px */
+@media screen and (max-width: 1200px){
+   .container {
+       width: 960px;
+   }
+   .wrapper_main {
+    text-align: center;
+    overflow: hidden;
+}
+   .wrapper {
+       flex-direction: column;
+   }
+   .logo {
+    margin: 0px 440px;
+   }
+   .text_title {
+       text-align: center;
+   }
+   .intro {
+       width: auto;
+       text-align: center;
+   }
+   .skills {
+    margin-top: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+   .btn {
+       width: auto;
+   }
+   .item1 {
+       width: 522px;
+   }
+   .btn_input {
+       width: 522px;
+   }
+}
+
+/* 768 - 992px */
+@media screen and (max-width:992px) {
+    .header {
+        overflow: hidden;
+    }
+    .container {
+        width: 720px;
+    }
+    .wrapper_main {
+        text-align: center;
+        overflow: hidden;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: 100%;
+    }
+    .intro {
+        width: auto;
+        text-align: center;
+    }
+    .skills {
+        margin-top: 78px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        } 
+    .desktop {
+        width: 600px;
+        margin: 72px auto 0;
+    }
+    .btn {
+        width: 100%;
+    }
+    .text_title {
+        width: 100%;
+        text-align: center;
+    }
+    .logo {
+        margin: 0px 315px;
+    }
+
+}
+
+/* 576 - 768px */
+@media screen and (max-width:768px) {
+    .container {
+        width: 540px;
+    }
+    .wrapper_main {
+        text-align: center;
+        overflow: hidden;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .logo {
+        margin: 0px 234px;
+    }
+    .desktop {
+        width: 100%;
+    }
+    .intro {
+        width: auto;
+        text-align: center;
+    }
+    .skills {
+    margin-top: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }   
+    .skill {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* 0 - 576px */
+@media screen and (max-width:576px) {
+    .container {
+        width: auto;
+        overflow: hidden;
+    }
+    .logo {
+        margin: 0px 100px;
+    }
+    .text_title {
+        width: 100%;
+        text-align: center;
+    }
+    .intro {
+    width: auto;
+    text-align: center;
+    }
+    .desktop {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .skills {
+        margin-top: 78px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }   
+        .skill {
+            margin-bottom: 15px;
+        }
+        .item1 {
+            text-align: center;
+        }
+        .input_link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .wrapper_main {
+            text-align: center;
+            overflow: hidden;
+        }
+}
